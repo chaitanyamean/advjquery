@@ -1,0 +1,56 @@
+.title-class {
+    margin-top: 20px;
+}
+
+.tcls {
+    color: white;
+    font-size: 20px;
+}
+
+.icls {
+    background-color: white;
+    margin-top: 10px;
+    height: auto;
+    transition: box-shadow 1s;
+    border: 1px solid #eee;
+}
+
+.icls h5 {
+    text-align: center;
+    padding: 10px;
+
+}
+
+.icls:hover {
+
+    box-shadow: 3px 3px 3px #515151;;
+
+
+}
+
+.incls {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    height: 40px;
+    border: 1px solid grey; 
+}
+
+.btn {
+    padding: 0;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.btn button {
+    height: 40px;
+
+}
+
+
+@media  (min-width: 355px) {
+    .btn {
+        padding: 10px !important;
+        text-align: center;
+
+    }
+}
